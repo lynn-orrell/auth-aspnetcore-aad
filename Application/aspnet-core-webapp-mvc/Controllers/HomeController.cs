@@ -58,7 +58,8 @@ namespace aspnet_core_webapp_mvc.Controllers
 
             string accessToken = await GetAccessTokenAsync();
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-            request.Headers.Add("Ocp-Apim-Subscription-Key", "ce734a9a68bf466aa9b77c28a1c91877");
+            request.Headers.Add("Ocp-Apim-Subscription-Key", "<YOUR KEY HERE>");
+            request.Headers.Add("Ocp-Apim-Trace", "true");
 
             var response = await Client.SendAsync(request);
 

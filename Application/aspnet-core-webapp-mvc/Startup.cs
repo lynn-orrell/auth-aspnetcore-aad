@@ -68,7 +68,7 @@ namespace aspnet_core_webapp_mvc
 
                         var authContext = new AuthenticationContext(ctx.Options.Authority, cache);
 
-                        //Get token for Microsoft Graph API using the authorization code
+                        //Get token for WebAPI using the authorization code
                         string resource = ctx.Options.Resource;
                         AuthenticationResult result = await authContext.AcquireTokenByAuthorizationCodeAsync(
                             ctx.ProtocolMessage.Code, new Uri(currentUri), credential, resource);
