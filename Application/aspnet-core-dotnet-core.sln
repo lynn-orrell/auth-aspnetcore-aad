@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-dotnet-core.FunctionalTests", "aspnet-core-dotnet-core.FunctionalTests\aspnet-core-dotnet-core.FunctionalTests.csproj", "{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-webapi", "aspnet-core-webapi\aspnet-core-webapi.csproj", "{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-core-webapp", "aspnet-core-webapp\aspnet-core-webapp.csproj", "{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-core-webapp-mvc", "aspnet-core-webapp-mvc\aspnet-core-webapp-mvc.csproj", "{E1556971-215B-4B14-9D89-E6DFB98B43DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-webapp-mvc", "aspnet-core-webapp-mvc\aspnet-core-webapp-mvc.csproj", "{E1556971-215B-4B14-9D89-E6DFB98B43DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,18 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1556971-215B-4B14-9D89-E6DFB98B43DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1556971-215B-4B14-9D89-E6DFB98B43DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1556971-215B-4B14-9D89-E6DFB98B43DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
