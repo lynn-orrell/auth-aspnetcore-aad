@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-dotnet-core.Uni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-dotnet-core.FunctionalTests", "aspnet-core-dotnet-core.FunctionalTests\aspnet-core-dotnet-core.FunctionalTests.csproj", "{D6902CA6-4C33-4EB0-95BB-F49E513B66A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-core-webapi", "aspnet-core-webapi\aspnet-core-webapi.csproj", "{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-core-webapi", "aspnet-core-webapi\aspnet-core-webapi.csproj", "{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-core-webapp", "aspnet-core-webapp\aspnet-core-webapp.csproj", "{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7350BAFF-A63F-4800-8FE8-C7D9D10303ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D3CE1A-D5B3-4FA3-B2BF-14942A5AD589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
